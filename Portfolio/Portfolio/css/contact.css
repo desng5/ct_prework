@@ -1,0 +1,75 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+
+}
+
+body{
+    background-color: black;
+}
+
+
+#profile{
+    text-align: center;   
+}
+
+.side-articles ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#profile h2{
+    display: inline;
+}
+
+#profile-details{
+    margin-right: 0px;
+    text-align: center;
+}
+
+
+.side-articles, .main-articles {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.side-articles{
+    background-color: gray;
+    text-align: center;
+}
+
+.main-articles{
+    background-color: lightseagreen;
+}
+
+.side-articles h1{
+    margin-bottom: 20px;
+}
+
+footer{
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    height:5vh;
+    margin-top: 0px;
+}
+
+footer div{
+    text-align: center;
+    color:white;
+    border:0px;
+
+}
+
+main{
+    overflow:auto;
+}
+
+footer hr{
+    margin-top: 0px;
+    height:10px;
+    border: 0px;
+    box-shadow: inset 0 12px 12px -12px white
+
+}
